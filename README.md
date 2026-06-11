@@ -21,10 +21,19 @@ pac --version  # Power Platform CLI
 If `pac` is missing: [Install Power Platform CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction)
 
 ### 2. Clone the repo
+
+**GitHub:**
 ```
 git clone <repo-url>
 cd code-apps/templateapp
 ```
+
+**Azure DevOps:**
+```
+git clone https://dev.azure.com/<org>/<project>/_git/<repo>
+cd <repo>/templateapp
+```
+Or clone via VS Code: open the Command Palette (`Ctrl+Shift+P`) → **Git: Clone** → paste the Azure DevOps repo URL.
 
 ### 3. Install dependencies
 ```
