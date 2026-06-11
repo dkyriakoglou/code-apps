@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "code-apps": {
+      "source": {
+        "source": "github",
+        "repo": "dkyriakoglou/code-apps"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "power-apps@code-apps": true
+  }
+}

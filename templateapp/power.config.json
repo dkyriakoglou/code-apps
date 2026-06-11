@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "appId": null,
+  "appDisplayName": "Template App",
+  "region": "prod",
+  "environmentId": "Default-6dc72a76-cabb-4e04-869e-38f6c65740b5",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}

@@ -1,0 +1,62 @@
+.bpf-container {
+  display: flex;
+  height: 44px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.bpf-stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  user-select: none;
+  position: relative;
+  /* default (middle): left notch + right arrow */
+  clip-path: polygon(14px 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 14px 100%, 0% 50%);
+  margin-right: -13px;
+  padding: 0 30px;
+  transition: filter 0.12s ease;
+}
+
+.bpf-stage:hover {
+  filter: brightness(0.93);
+}
+
+/* First stage: flat left edge, arrow right */
+.bpf-stage--first {
+  clip-path: polygon(0% 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 0% 100%);
+  padding-left: 18px;
+}
+
+/* Last stage: notch left, flat right edge */
+.bpf-stage--last {
+  clip-path: polygon(14px 0%, 100% 0%, 100% 100%, 14px 100%, 0% 50%);
+  margin-right: 0;
+  padding-right: 18px;
+}
+
+.bpf-stage--completed {
+  background-color: #107c10;
+  color: #fff;
+}
+
+.bpf-stage--active {
+  background-color: #0078d4;
+  color: #fff;
+}
+
+.bpf-stage--future {
+  background-color: #e1dfdd;
+  color: #605e5c;
+}
+
+.bpf-icon {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
