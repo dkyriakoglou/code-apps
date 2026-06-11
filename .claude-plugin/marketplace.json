@@ -1,0 +1,14 @@
+{
+  "name": "code-apps",
+  "owner": {
+    "name": "Dimitrios Kyriakoglou",
+    "email": "dkyriakoglou@xenatusglobal.com"
+  },
+  "plugins": [
+    {
+      "name": "power-apps",
+      "source": "./plugins/power-apps",
+      "description": "Power Platform Code Apps — scaffold, run, debug, and deploy React+Vite+FluentUI code apps"
+    }
+  ]
+}
