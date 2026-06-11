@@ -22,7 +22,7 @@ If `pac` is missing: [Install Power Platform CLI](https://learn.microsoft.com/en
 
 ### 2. Clone the repo
 ```
-git clone https://github.com/dkyriakoglou/code-apps.git
+git clone <repo-url>
 cd code-apps/templateapp
 ```
 
